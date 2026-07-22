@@ -17,3 +17,7 @@ h2.innerText=" i am changed by innerText"
 h3.innerHTML="<i>i am innerHTML<i>" /*implemets the tags*/
 
 console.log(h1);
+
+console.log(body.innerHTML);
+console.log(body.innerText);
+console.log(body.textContent);
