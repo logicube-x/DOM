@@ -22,3 +22,10 @@ console.log(body.innerText);
 console.log(body.textContent);
 
 body.style.backgroundColor="crimson";
+
+const isClass=h1.classList.contains("j");
+console.log(isClass); /*This  tells whether the tag has a --- class or not */
+
+h1.classList.replace("box","new") /*This changes/replaces the class name */
+
+h1.classList.toggle("new");
