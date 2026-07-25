@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+ height:100%;
+width:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+main{
+    border: 1px solid;
+    height: 70%;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    background-color: rgb(188, 255, 251);
+    gap: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(255, 233, 179);
+}
+
+#up{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    gap: 15px;
+   
+}
+
+.cont{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(192, 183, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+   
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: hotpink;
+    font-size: smaller;
+    font-weight:100px; 
+}
+#inp{
+    padding: 5px 10px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    flex: 1;
+}
+#ad{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gold;
+    
+}
+
+#edit{
+    padding: 5px 10px;
+    background-color: rgb(255, 178, 35);
+    border-radius: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+#del{
+    padding: 5px 10px;
+    background-color: rgb(255, 58, 44);
+    border-radius: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(208, 242, 254);
+}

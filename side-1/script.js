@@ -12,3 +12,5 @@ main.append(box1,box2,box3)
 box1.style.backgroundColor="red"
 box2.style.backgroundColor="yellow"
 box3.style.backgroundColor="green"
+
+main.prepend(box3,box2)
