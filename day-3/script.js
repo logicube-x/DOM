@@ -20,3 +20,9 @@ temp.dataset.myId="999";
 
 console.log(temp.getAttribute("data-my-id"));
 
+const footer=document.createElement("footer");
+const span=document.createElement("span");
+document.body.appendChild(footer)
+document.body.appendChild(span)
+
+span.innerHTML="<i>Hello i am added dynamic..<i/>"
