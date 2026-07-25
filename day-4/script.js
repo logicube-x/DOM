@@ -5,20 +5,20 @@ const body=document.querySelector("body")
 
 btn.addEventListener("click",(e)=>{
     
-   console.log("clicked");
+   console.log("clicked-btn");
 })
 
 body.addEventListener("click",(e)=>{
 
-   console.log("clicked");
+   console.log("clicked-body");
 })
 
 main.addEventListener("click",(e)=>{
 
-   console.log("clicked");
+   console.log("clicked-main");
 })
 
 div.addEventListener("click",(e)=>{
 
-   console.log("clicked");
+   console.log("clicked-div");
 })
