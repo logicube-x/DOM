@@ -32,7 +32,8 @@ const users = [
   }
 ];
 
-users.forEach((elem)=>{
+const ui=()=>{
+    users.forEach((elem)=>{
      cont.innerHTML+=` <div class="card">
                 <div class="img-cont">
                     <img src="${elem.image}" alt="">
@@ -43,6 +44,7 @@ users.forEach((elem)=>{
                 </div>
             </div>`
 })
+}
 
 
 form.addEventListener("submit",(e)=>{
@@ -55,18 +57,29 @@ form.addEventListener("submit",(e)=>{
     if(name.trim()===''&&email.trim()==='') return;
 
 
-    cont.innerHTML+=` <div class="card">
-                <div class="img-cont">
-                    <img src="${imgUrl}" alt="">
-                </div>
-                <div class="data">
-                    <h3>${name}</h3>
-                    <h4>${email}</h4>
-                </div>
-            </div>`
+    // cont.innerHTML+=` <div class="card">
+    //             <div class="img-cont">
+    //                 <img src="${imgUrl}" alt="">
+    //             </div>
+    //             <div class="data">
+    //                 <h3>${name}</h3>
+    //                 <h4>${email}</h4>
+    //             </div>
+    //         </div>`
+users.push({
+    name:name,
+    email:email,
+    image:imgUrl
+})
 
+
+ui();
+
+console.log(users);
 
 inp1.value="";
 inp2.value="";
+url.value=''
+
 
 })
